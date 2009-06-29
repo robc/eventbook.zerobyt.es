@@ -50,6 +50,7 @@ a:hover {
 }
 
 p.copyright {
+	font-size: 1em;
 	clear: both;
 	color: #cccccc;
 }
@@ -61,3 +62,6 @@ p.teaser_text {
 
 .right { float: right; }
 .left { float: left; }
+div#header div { border-bottom-color: #999999; border-bottom-style: groove; border-bottom-width: 1px; }
+div#content_text { padding-top: 3.5em; }
+div#logo_image { padding-top: 1em; }
