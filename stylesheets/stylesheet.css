@@ -1,6 +1,6 @@
 html {
 	text-shadow: 3px 3px 2px black;
-	background-color: #333333;
+	background-color: #005000;
 	color: white;
 	font-size: 62.5%;
 }
@@ -15,7 +15,7 @@ body {
 }
 
 p {
-	color: #cccccc;
+	color: white;
 	font-size: 1.4em;
 }
 
@@ -26,16 +26,17 @@ h1 {
 }
 
 li {
-	color: #cccccc;
+	color: white;
 	font-size: 1.4em;
 	text-transform: none;
 	list-style-type: disc;
 }
 
 ul#navigation_list li {
+	font-weight: bold;
 	font-size: 1.6em;
 	font-variant: small-caps;
-	color: #999999;
+	color: #cccccc;
 	display: inline;
 	list-style-type: none;
 }
@@ -50,7 +51,7 @@ a:hover {
 }
 
 p.copyright {
-	font-size: 1em;
+	font-size: 1.2em;
 	clear: both;
 	color: #cccccc;
 }
@@ -64,6 +65,6 @@ p.teaser_text {
 
 .right { float: right; }
 .left { float: left; }
-div#header div { border-bottom-color: #999999; border-bottom-style: groove; border-bottom-width: 1px; }
+div#header div { border-bottom-color: #BBBBBB; border-bottom-style: groove; border-bottom-width: 1px; }
 div#content_text { padding-top: 3.5em; }
 div#logo_image { padding-top: 1em; }
