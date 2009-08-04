@@ -11,9 +11,18 @@ html {
 	-webkit-background-clip: content-box;
 }
 
-a {
+a:link {
 	text-decoration: none;
 	color: #999;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #999;
+}
+
+a:hover {
+	color: white;
 }
 
 body {
@@ -64,11 +73,15 @@ ul#navigation_list li {
 	list-style-type: none;
 }
 
-li.current_page {
+li.current_page a:link {
 	color: #ddd;
 }
 
-a:hover {
+li.current_page a:visited {
+	color: #ddd;
+}
+
+li.current_page a:hover {
 	color: white;
 }
 
