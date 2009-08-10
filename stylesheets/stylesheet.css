@@ -11,6 +11,11 @@ html {
 	-webkit-background-clip: content-box;
 }
 
+a {
+	-webkit-transition-property: color;
+	-webkit-transition-duration: 0.3s;
+}
+
 a:link {
 	text-decoration: none;
 	color: #888;
