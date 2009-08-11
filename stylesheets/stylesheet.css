@@ -39,12 +39,6 @@ p {
 	font-size: 1.4em;
 }
 
-h1 {
-	font-variant: small-caps;
-	font-weight: bold;
-	font-size: 4.8em;
-}
-
 h2 {
 	font-weight: bold;
 	font-size: 2.8em;
@@ -76,18 +70,6 @@ ul#navigation_list li {
 	color: #bbb;
 	display: inline;
 	list-style-type: none;
-}
-
-li.current_page a:link {
-	color: #ddd;
-}
-
-li.current_page a:visited {
-	color: #ddd;
-}
-
-li.current_page a:hover {
-	color: white;
 }
 
 p.copyright {
