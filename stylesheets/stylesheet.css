@@ -85,6 +85,12 @@ p.teaser_text {
 	font-size: 2em;
 }
 
+p.fan_text {
+	color: white;
+	text-align: center;
+	font-size: 1.6em;
+}
+
 div p span.question {
 	font-weight: bold;
 	color: #fff;
