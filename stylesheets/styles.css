@@ -11,10 +11,11 @@ body {
 }
 
 div#body {
-	background-color: rgba(14, 72, 12, 0.25);
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
+	background-color: rgba(14, 72, 12, 0.4);
 	padding: 10px;
+
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 4px 4px 2px #005500;
 }
 
 div#logo {
@@ -26,7 +27,7 @@ div#logo {
 
 div#event_details {
 	background-image: url('../images/EventDetails.png');
-	margin: 0 auto;
+	margin: 0;
 	width: 255px;
 	height: 454px;
 }
