@@ -10,6 +10,12 @@ body {
 	-webkit-background-clip: content-box;
 }
 
+h2 {
+	color: white;
+	text-align: center;
+	text-shadow: 2px 2px 2px black;
+}
+
 div#body {
 	background-color: rgba(14, 72, 12, 0.4);
 	padding: 10px;
@@ -20,16 +26,9 @@ div#body {
 
 div#logo {
 	background-image: url('../images/eventbook-title.png');
-	margin: 0 auto;
+	margin: auto;
 	width: 900px;
 	height: 285px;
-}
-
-div#event_details {
-	background-image: url('../images/EventDetails.png');
-	margin: 0;
-	width: 255px;
-	height: 454px;
 }
 
 ul.navigation {
@@ -38,14 +37,23 @@ ul.navigation {
 }
 
 ul.navigation li {
+	display: inline;
+	list-style-type: none;
 	font-size: x-large;
 	font-weight: bold;
 	font-variant: small-caps;
 	color: #bbb;
-	display: inline;
-	list-style-type: none;
 	text-shadow: 2px 2px 2px black;
 	padding-left: 1em;
+}
+
+ul.screenshots {
+	margin: auto;
+}
+
+ul.screenshots li {
+	display: inline;
+	list-style-type: none;
 }
 
 a {
