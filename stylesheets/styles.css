@@ -4,7 +4,7 @@ body {
 	font-size: medium;
 	color: white;
 	background-color: #0e480c;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#0e480c), to(#0abd01), color-stop(.25,#15380A));
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#0e480c), to(#0abd01), color-stop(.1, #15380A));
 	background-attachment: fixed;
 	-webkit-background-origin: padding-box;
 	-webkit-background-clip: content-box;
@@ -14,6 +14,7 @@ div#body {
 	background-color: rgba(14, 72, 12, 0.25);
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
+	padding: 10px;
 }
 
 div#logo {
@@ -43,8 +44,7 @@ ul.navigation li {
 	display: inline;
 	list-style-type: none;
 	text-shadow: 2px 2px 2px black;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
+	padding-left: 1em;
 }
 
 a {
