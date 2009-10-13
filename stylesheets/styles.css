@@ -1,0 +1,20 @@
+div#logo {
+	background-image: url('../images/eventbook-title.png');
+	margin: 0 auto;
+	width: 900px;
+	height: 285px;
+}
+
+div#header ul {
+	clear: none;
+	float: right;
+}
+
+div#header ul li {
+	font-weight: bold;
+	font-size: 1.6em;
+	font-variant: small-caps;
+	color: #bbb;
+	display: inline;
+	list-style-type: none;
+}
