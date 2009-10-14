@@ -31,7 +31,6 @@ h4 {
 	font-weight: bold;
 }
 
-
 div#body {
 	margin-top: 2em;
 	padding-left: 0.5em;
@@ -45,6 +44,9 @@ div#body {
 
 div#footer {
 	margin-top: 2em;
+	padding: 0.5em;
+	background-color: #15380A;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0ABD01), to(#0E480C), color-stop(.75,#15380A));
 }
 
 div#logo {
@@ -86,12 +88,12 @@ a {
 
 a:link {
 	text-decoration: none;
-	color: #888;
+	color: #AAA;
 }
 
 a:visited {
 	text-decoration: none;
-	color: #888;
+	color: #AAA;
 }
 
 a:hover {
