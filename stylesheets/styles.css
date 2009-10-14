@@ -36,15 +36,19 @@ div#body {
 	padding-left: 0.5em;
 	padding-right: 0.5em;
 	padding-top: 0.5em;
-	background-color: rgba(14, 72, 12, 0.4);
+	background-color: rgba(21, 56, 10, 0.5);
 
+	border-radius: 10px;
 	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+
 	-webkit-box-shadow: 4px 4px 2px #005500;
+	-moz-box-shadow: 4px 4px 2px #005500;
 }
 
 div#footer {
 	margin-top: 2em;
-	padding: 0.5em;
+	padding: 0.5em 1em;
 	background-color: #15380A;
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0ABD01), to(#0E480C), color-stop(.75,#15380A));
 }
