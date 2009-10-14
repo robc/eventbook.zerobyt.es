@@ -60,22 +60,6 @@ div#logo {
 	height: 285px;
 }
 
-ul.navigation {
-	clear: none;
-	float: right;
-}
-
-ul.navigation li {
-	display: inline;
-	list-style-type: none;
-	font-size: x-large;
-	font-weight: bold;
-	font-variant: small-caps;
-	color: #bbb;
-	text-shadow: 2px 2px 2px black;
-	padding-left: 1em;
-}
-
 ul.screenshots {
 	margin: auto;
 }
